@@ -1,0 +1,28 @@
+{
+  "name": "retroshop-backend",
+  "version": "1.0.0",
+  "description": "This is the API for the retroshop project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Vivi Gnutzmann",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.2",
+    "nodemon": "^3.0.3",
+    "serve-static": "^1.15.0",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+  }
+}
